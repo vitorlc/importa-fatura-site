@@ -1,0 +1,27 @@
+.installBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #1DA361;
+    border: none;
+    width: 270px;
+    height: 45px;
+    border-radius: 30px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: .1s ease-in;
+}
+
+.installBtn:hover{
+    transform: scale(1.1);
+}
+
+.installBtn img{
+    width: 30px;
+}
+
+.installBtn a{
+    color: #fff;
+    text-decoration: none;
+}

@@ -1,0 +1,31 @@
+
+footer{
+    height: 80px;
+    background-color: #4AB580;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+span{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.span{
+    border-top: 1px solid white;
+    padding: 10px 20px;
+    width: 80%;
+    text-align: center;
+}
+
+@media screen and (min-width: 380px) {
+    span{
+        font-size: 15px;
+    }
+
+    .span{
+        width: 90%;
+    }
+}
