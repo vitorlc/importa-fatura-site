@@ -5,7 +5,7 @@ function InstallButton () {
   return (
     <button className='installBtn'>
       <img src={icon} />
-      <a href='#'>Install The Add-On For Free</a>
+      <a href='#'>Instale o Addon</a>
     </button>
   )
 }

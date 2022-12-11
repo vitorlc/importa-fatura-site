@@ -18,9 +18,9 @@ function Content () {
           <p>Keep your databases from Notion automatically in sync with Google Sheets. Use Sheets formulas to send data to Notion, create recurring tasks and even connect cells with Notion blocks for dynamic dashboards!</p>
           <InstallButton />
         </div>
-        <div className='main-content_video'>
-          <iframe loading='lazy' width='100%' height='100%' src='https://www.youtube.com/embed/BPCDGCLs1bE' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' />
-        </div>
+        {/* <div className='main-content_video'>
+          <iframe loading='lazy' width='100%' height='100%' src='' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' />
+        </div> */}
       </section>
 
       <section id='cards' className='cards'>

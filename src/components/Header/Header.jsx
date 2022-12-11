@@ -10,60 +10,44 @@ function Header () {
     <>
       <nav>
         <div className='nav-wrapper'>
-          <h2>notion2sheets</h2>
+          <h2>Importador de Faturas</h2>
 
-          <button
-            className='dropdown-menu-btn'
-            onClick={() => setOpen(!open)}
-          >
+          <button className='dropdown-menu-btn' onClick={() => setOpen(!open)}>
             <List width={60} />
           </button>
 
           <ul>
-            <a href='#main-content'>
-              <li>Blog</li>
-            </a>
             <a href='#cards'>
-              <li>FAQ</li>
+              <li>Sobre</li>
             </a>
             <a href='#section'>
-              <li>Need Help?</li>
+              <li>Dúvidas?</li>
             </a>
             <a href='#footer'>
-              <li>Pricing</li>
+              <li>Entre em contato</li>
             </a>
           </ul>
 
           <a href='#' className='downloadBtn'>
             <InstallButton />
           </a>
-
         </div>
 
-        {open &&
-
+        {open && (
           <div className='dropdown-menu'>
             <ul>
-              <a href='#'>
-                <li>Blog</li>
-              </a>
               <a href='#cards'>
-                <li>FAQ</li>
+                <li>Sobre</li>
               </a>
               <a href='#section'>
-                <li>Need Help?</li>
+                <li>Dúvidas?</li>
               </a>
               <a href='#footer'>
-                <li>Pricing</li>
+                <li>Entre em contato</li>
               </a>
             </ul>
-
-            <a href='#'>
-              <InstallButton />
-            </a>
-
-          </div>}
-
+          </div>
+        )}
       </nav>
     </>
   )
