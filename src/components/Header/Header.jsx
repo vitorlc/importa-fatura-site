@@ -1,6 +1,6 @@
 import { List } from 'phosphor-react'
 import { useState } from 'react'
-import InstallButton from '../Button/Button'
+import Button from '../Button/Button'
 import './Header.css'
 
 function Header () {
@@ -29,7 +29,7 @@ function Header () {
           </ul>
 
           <a href='#' className='downloadBtn'>
-            <InstallButton />
+            <Button showIcon={true} text={'Instale o Addon'}/>
           </a>
         </div>
 
