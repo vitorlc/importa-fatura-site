@@ -1,13 +1,13 @@
 import './Button.css'
 import icon from '../../assets/icon.png'
 
-function InstallButton () {
+function Button ({ showIcon, text, href='#' }) {
   return (
     <button className='installBtn'>
-      <img src={icon} />
-      <a href='#'>Instale o Addon</a>
+      {showIcon && <img src={icon} />}
+      <a href={href}>{text}</a>
     </button>
   )
 }
 
-export default InstallButton
+export default Button
